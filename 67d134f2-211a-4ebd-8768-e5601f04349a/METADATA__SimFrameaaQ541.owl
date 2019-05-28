@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SimFrameaaQ541">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/">true</IsPrimKey>
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">UNKNOWN_R:::SimFrameaaQ541</QueryStructName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__sourceCol">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SimFrameaaQ541">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__sourceCol"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__sourceCol">
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">sourceCol</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">FACTOR</DatatypeProperty>
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">UNKNOWN_R:::SimFrameaaQ541__sourceCol</QueryStructName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__targetCol">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SimFrameaaQ541">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__targetCol"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__targetCol">
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">targetCol</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">FACTOR</DatatypeProperty>
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">UNKNOWN_R:::SimFrameaaQ541__targetCol</QueryStructName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__distance">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SimFrameaaQ541">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__distance"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SimFrameaaQ541__distance">
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">distance</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">UNKNOWN_R:::SimFrameaaQ541__distance</QueryStructName>
+</rdf:Description>
+
+</rdf:RDF>
